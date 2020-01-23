@@ -1,0 +1,15 @@
+.container {
+    height:60%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .photo {
+    border: 2px solid blueviolet;
+  }
