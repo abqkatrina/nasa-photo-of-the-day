@@ -1,0 +1,16 @@
+.footer {
+    background-color: black;
+    margin: 0 auto;
+    padding: 0;
+    min-height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: blueviolet;
+  }
+
+  p {
+    padding: 0 10px;
+  }
