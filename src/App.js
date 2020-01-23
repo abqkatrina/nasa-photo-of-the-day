@@ -1,10 +1,9 @@
+
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import Image from "./components/Image/Image.js";
 import Footer from "./components/Footer/Footer.js";
 import Header from "./components/Header/Header.js"
-
-
 import "./App.css";
 
 function App() {
@@ -33,7 +32,6 @@ return (
     <Header/>
     <Image photos={photos.url}/>
     <Footer date={photos.date} title={photos.title}/>
-
   </div>
 );
 }

@@ -28,12 +28,8 @@ This project was put together using create-react-app (CRA). You will not need to
 - [X] Download project dependencies by running one of these two commands `yarn` or `npm install`
 - [X] Using the same command tool (yarn or npm) start up the app using `yarn start` or `npm start`
 - [X] Create a new branch: git checkout -b `<firstName-lastName>`.
-<<<<<<< HEAD
 - [X]Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-=======
-      Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
->>>>>>> e274e1a42197ba9a4d034dd5891d60b6e1ff649f
-- [X] Push commits: git push origin `<firstName-lastName>`.
+
 
 Follow these steps for completing your project.
 
@@ -66,21 +62,12 @@ Follow these steps for completing your project.
 **Step 3 - Fetching the Data**
 
 - [X] In `App.js` (or where ever you wanted to fetch the data) add state for the data you'll be getting from NASA.
-<<<<<<< HEAD
-- [ ] Add an effect hook to handle the API call side effect.
-- [ ] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
-- [ ] You don't _need_ an API key. However you may need one if you exceed the API request limits.
-- [ ] Using the endpoint given, fetch the data using `axios`.
-- [ ] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
-- [ ] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
-=======
 - [X] Add an effect hook to handle the API call side effect.
 - [X] Go to the [NASA APOD API docs](https://api.nasa.gov/#apod) and read through the docs to see how to make the API call.
 - [X] You don't _need_ an API key. However you may need one if you exceed the API request limits.
 - [X] Using the endpoint given, fetch the data using `axios`.
 - [X] In your `.then()` make sure to `console.log` the response so you can look at the shape of the data. 😃
 - [X] Before you add your data to state, make sure your effect hook has a dependency array (probably empty, since we don't want this effect synced up to any state/props), otherwise you will start an **infinite loop, and you will exceed the API rate limits of the DEMO_KEY and need to use a real API_KEY.**
->>>>>>> e274e1a42197ba9a4d034dd5891d60b6e1ff649f
 
 DEMO KEY rate limits:
 
