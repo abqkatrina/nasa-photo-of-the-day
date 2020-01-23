@@ -16,4 +16,4 @@ const Footer() = {
             </p>   
         </div>
     )
-}
+    }
