@@ -9,3 +9,7 @@
     align-items: center;
     justify-content: center;
   }
+
+  .photo {
+    border: 2px solid blueviolet;
+  }

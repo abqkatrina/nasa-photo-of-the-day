@@ -10,7 +10,7 @@ const potd = props.photos;
 
 return (
   <div className="container">
-    <img alt="PotD" src={(potd)}/>
+    <img alt="PotD" src={(potd)} className="photo"/>
   </div>
 )
 }
